@@ -16,6 +16,15 @@ public class Radio {
     String ip;
     String ssid;
     String location;
+    Boolean isDown;
+
+    public Boolean isIsDown() {
+        return isDown;
+    }
+
+    public void setIsDown(Boolean isDown) {
+        this.isDown = isDown;
+    }
 
     public Radio(String deviceName, String ip, String ssid, String location) {
         this.deviceName = deviceName;
