@@ -50,6 +50,7 @@ public class StartServer {
                             listUp.add(rad);
                             System.out.println(rad.getIp() + " up");
                             socket.close();
+                            
                         }
                     } catch (ConnectException exception) {
                         System.out.println(rad.getIp() + " connect timeout");
